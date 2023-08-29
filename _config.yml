@@ -20,7 +20,7 @@ timezone: Asia/Kolkata
 
 title: Blogs # the main title
 
-tagline: A collection of random ideas # it will display as the sub-title
+tagline: A collection of random ideas by Kanishk Singhal # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A place to post technical blogs regarding Web Development, machine learning and natural language processing.
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "assets/images/Kanishk.jpg"
+avatar: "assets/img/Kanishk.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -154,7 +154,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
+      path: assets/img/favicons/
     values:
       swcache: true
   - scope:

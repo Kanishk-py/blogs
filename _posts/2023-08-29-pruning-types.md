@@ -19,7 +19,7 @@ We have moved our focus on structured pruning. Structured pruning can be impleme
 
 ### One-shot
 * We first train the model till convergence for a given input number of epochs.
-* We  begin pruning we certain information in hand such as:
+* We  begin pruning with certain information in hand such as:
 	* Pm - pruning ratio which means we will prune pm percent of the features in each layer. 
 	* Trained model - the sequential model post training
 	* Input size - No of input to the first layer
@@ -54,4 +54,4 @@ We have moved our focus on structured pruning. Structured pruning can be impleme
 2. Computation is reduced after pruning, which means faster results and more robust relevant features are learned.
 3. Pruning performance depends on the size of the model. For large models and simpler datasets, pruning of 0.9 can still increase accuracy
 
-![Pruning](/assets/images/pruning-types_accuracy_v_prune_ratio.png)
+![Pruning](/assets/img/pruning-types_accuracy_v_prune_ratio.png)

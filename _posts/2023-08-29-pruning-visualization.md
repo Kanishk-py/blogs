@@ -46,7 +46,7 @@ plot_network(model)
 
 After creating this neural network, we have used the `networkx` library to visualize the neural network. The resultant visualization will have a node corresponding to each node in the network. The nodes of one layer are aligned vertically. The nodes of different layers are connected with edges. We have displayed the edge weight of each edge in the plot along with color coding the edges, i.e., the color of an edge denoted its weight with respect to other edges. 
 
-![Pruning](/assets/images/pruning-visualization-1.png)
+![Pruning](/assets/img/pruning-visualization-1.png)
 
 After this, we use one_shot structured pruning to prune/remove 50% of the nodes in each layer except input and output layers. We use the pruning algorithm defined above. Ideally, after pruning following should happen:
 * One out of two neurons in layer 1(0 indexed) should be removed. The L1-norm of the parameters of the removed node should be less than that of the unpruned node.
@@ -77,4 +77,4 @@ As it can be seen from above equations, Node 0 and Node 1 should be removed.
 
 We can observe in the figure below, that the desired state of the neural network has been achieved after pruning. 
 
-![Pruning](/assets/images/pruning-visualization-2.png)
+![Pruning](/assets/img/pruning-visualization-2.png)
