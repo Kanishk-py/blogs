@@ -1,5 +1,5 @@
 ---
-title: Ways to prune a nueral network
+title: Ways to prune a Neural Network
 categories: [python, machine_learning]
 tag: [Pruning,one-shot,iterative]
 author: [<kanishk>, <lipika>, <ksheer>]
